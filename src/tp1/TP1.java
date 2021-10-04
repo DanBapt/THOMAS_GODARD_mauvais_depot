@@ -31,6 +31,9 @@ public class TP1 {
         System.out.println("La différence des entiers est: " + minus);
         System.out.println("La multiplication des entiers est: " + mult);
         System.out.println("La division des entiers est: " + div);
+        int quot=
+        int res=
+        System.out.println("Le quotient de la division des entiers est: " + quot + "Le reste de la division des entiers est:" + reste);
 
     }
 
