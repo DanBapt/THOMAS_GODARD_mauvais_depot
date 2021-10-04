@@ -26,14 +26,13 @@ public class TP1 {
         int add = ent1 + ent2;
         int minus = ent1 - ent2;
         int mult = ent1 * ent2;
-        float div = ent1 / ent2;
+        int div = ent1 / ent2;
         System.out.println("La somme des entiers est: " + add);
         System.out.println("La différence des entiers est: " + minus);
         System.out.println("La multiplication des entiers est: " + mult);
         System.out.println("La division des entiers est: " + div);
-        int quot=
-        int res=
-        System.out.println("Le quotient de la division des entiers est: " + quot + "Le reste de la division des entiers est:" + reste);
+        int reste= ent1%ent2;
+        System.out.println("Le quotient de la division des entiers est: " + div + " Le reste de la division des entiers est:" + reste);
     }
 
 }
